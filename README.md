@@ -81,3 +81,9 @@ Rebuilding the patch: `tools\eva64\makepatch.bat <version>`.
 *Neon Genesis Evangelion* is © GAINAX / Project Eva., TV Tokyo and its other rights holders; the
 game is © 1999 BANDAI. This project is not affiliated with or endorsed by them. Do not sell the
 patch, and do not distribute it together with the game.
+
+## Licence
+
+The tools, scripts and documentation are under the MIT License (see `LICENSE`). The translated
+text and redrawn images are a free fan translation of copyrighted material and are not covered by
+it; the fonts are under the SIL Open Font License.
