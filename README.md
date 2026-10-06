@@ -21,6 +21,7 @@ Japanese original on the left, English patch on the right (captured at the same 
 ![Main menu](screenshots/mainmenu.png)
 
 More pairs in [`screenshots/`](screenshots/), and all of them on one sheet: [`screenshots/all_pairs.png`](screenshots/all_pairs.png).
+Single English frames at the game's native 320x240 are in [`screenshots/english/`](screenshots/english/).
 
 ## What is translated
 
