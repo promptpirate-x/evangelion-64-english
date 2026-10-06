@@ -1,0 +1,100 @@
+# Pause (instruction) screen in each mission's gameplay scene.
+timeout 3000
+sheet 5 6 256 192
+wait 600
+press Start 4
+wait 400
+save menu
+load menu
+poke 0D5114 2 45
+wait 1300
+press Start 4
+wait 90
+shot s045_pause
+load menu
+poke 0D5114 2 48
+wait 1300
+press Start 4
+wait 90
+shot s048_pause
+load menu
+poke 0D5114 2 62
+wait 1300
+press Start 4
+wait 90
+shot s062_pause
+load menu
+poke 0D5114 2 65
+wait 1300
+press Start 4
+wait 90
+shot s065_pause
+load menu
+poke 0D5114 2 68
+wait 1300
+press Start 4
+wait 90
+shot s068_pause
+load menu
+poke 0D5114 2 71
+wait 1300
+press Start 4
+wait 90
+shot s071_pause
+load menu
+poke 0D5114 2 80
+wait 1300
+press Start 4
+wait 90
+shot s080_pause
+load menu
+poke 0D5114 2 82
+wait 1300
+press Start 4
+wait 90
+shot s082_pause
+load menu
+poke 0D5114 2 84
+wait 1300
+press Start 4
+wait 90
+shot s084_pause
+load menu
+poke 0D5114 2 52
+wait 2200
+press Start 4
+wait 90
+shot s052_pause
+load menu
+poke 0D5114 2 77
+wait 2000
+press Start 4
+wait 90
+shot s077_pause
+load menu
+poke 0D5114 2 59
+wait 600
+press A 4
+wait 1500
+press Start 4
+wait 90
+shot s059_pause
+load menu
+poke 0D5114 2 55
+wait 5200
+press A 4
+wait 1500
+press Start 4
+wait 90
+shot s055_pause
+load menu
+poke 0D5114 2 73
+wait 5300
+press A 4
+wait 1500
+press Start 4
+wait 90
+shot s073_pause
+load menu
+wait 200
+shot mainmenu

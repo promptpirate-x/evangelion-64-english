@@ -1,0 +1,20 @@
+# Test 6: mission 1 briefing and intro in full-length English, using the text pool.
+# Build with:  tools\eva64\build.bat scripts\test6_pool.tsv eva64_test6 en
+# DRAFT wording to test the mechanism. Not glossary-checked, not the final translation.
+0005	3rd Angel, Sachiel
+0006	Unit 01
+0007	Destroy the Angel\nabove NERV HQ.
+0017	Fifteen years since Second Impact.
+0018	A mysterious object nears land.
+0019	UN forces launch a fierce attack.
+0020	But the object\ndoes not even flinch.
+0021	Is conventional firepower\nuseless against it...?
+0022	NERV HQ, Central Command Room
+0023	"It's been fifteen years."
+0024	"Yes, there's no doubt.\n It's an Angel..."
+0025	"Prepare to launch!"
+0026	"Hold it off with the intercept\n system until Unit 01 launches!"
+0027	"You have no objection?"
+0028	"Of course. Unless we defeat the\n Angels, we have no future."
+0029	"Ikari... you're really\n sure about this?"
+0030	"Launch!!"

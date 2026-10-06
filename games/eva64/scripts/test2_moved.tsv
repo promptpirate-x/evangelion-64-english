@@ -1,0 +1,7 @@
+﻿# Round-trip test 2: one line made longer and a later one shorter, so the
+# lines in between move and the game's pointers to them must be rewritten.
+0005	TEST 123
+# 0017 was セカンドインパクトから{15}年。 (14 characters, now 23)
+0017	EVA TEST 2 SEND DATA 99
+# 0021 was 通常の火力では\n対処出来ないのか…。 (18 characters, now 6)
+0021	TEST 3

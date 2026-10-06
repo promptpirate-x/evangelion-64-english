@@ -1,0 +1,21 @@
+# First probe: boot the game, press Start now and then, take a picture every few seconds.
+wait 300
+shot boot1
+wait 300
+shot boot2
+press Start 4
+wait 240
+shot after_start1
+press Start 4
+wait 240
+shot after_start2
+press A 4
+wait 240
+shot after_a1
+press A 4
+wait 300
+shot after_a2
+wait 300
+shot later1
+wait 300
+shot later2

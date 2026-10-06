@@ -1,0 +1,46 @@
+# Narration check for missions 4-13: sample every 50 frames from each scene's start until after its last line.
+timeout 7000
+sheet 5 5 256 192
+wait 600
+press Start 4
+wait 400
+save menu
+load menu
+poke 0D5114 2 55
+record 3750 90 s055
+load menu
+poke 0D5114 2 57
+record 2700 90 s057
+load menu
+poke 0D5114 2 58
+record 6150 90 s058
+load menu
+poke 0D5114 2 61
+record 5800 90 s061
+load menu
+poke 0D5114 2 64
+record 4050 90 s064
+load menu
+poke 0D5114 2 66
+record 2700 90 s066
+load menu
+poke 0D5114 2 67
+record 6000 90 s067
+load menu
+poke 0D5114 2 70
+record 3850 90 s070
+load menu
+poke 0D5114 2 73
+record 4850 90 s073
+load menu
+poke 0D5114 2 76
+record 5350 90 s076
+load menu
+poke 0D5114 2 79
+record 10050 90 s079
+load menu
+poke 0D5114 2 81
+record 6150 90 s081
+load menu
+poke 0D5114 2 83
+record 4600 90 s083

@@ -1,0 +1,136 @@
+# Instruction screens. Columns: file, name, x0, y0, x1, y1, size, align, text. See tools\eva64\makescreens.py.
+# M01INST0 : battle controls
+1919	M01INST0	21	20	102	38	15	center	Move
+1919	M01INST0	21	43	102	61	15	center	Attack
+1919	M01INST0	21	66	102	84	15	center	Guard
+1919	M01INST0	21	89	102	107	15	center	Grab
+1919	M01INST0	21	112	102	150	15	center	Dodge /\nRun
+1919	M01INST0	21	155	102	173	15	center	AT Field
+1919	M01INST0	188	89	299	107	15	left	together
+1919	M01INST0	171	112	299	130	14	left	to run (you must
+1919	M01INST0	107	131	299	150	14	center	be some distance away)
+1919	M01INST0	161	155	299	173	15	left	hold down
+1919	M01INST0	21	178	299	198	14	center	Close in; once the fields neutralize, mash
+1919	M01INST0	105	199	299	220	14	left	in turn to break its AT Field
+# M02INST0 : battle controls
+1920	M02INST0	21	20	102	38	15	center	Move
+1920	M02INST0	21	43	102	61	15	center	Attack
+1920	M02INST0	21	66	102	84	15	center	Guard
+1920	M02INST0	21	89	102	107	15	center	Grab
+1920	M02INST0	21	112	102	150	15	center	Dodge /\nRun
+1920	M02INST0	21	155	102	173	15	center	AT Field
+1920	M02INST0	188	89	299	107	15	left	together
+1920	M02INST0	171	112	299	130	14	left	to run (you must
+1920	M02INST0	107	131	299	150	14	center	be some distance away)
+1920	M02INST0	161	155	299	173	15	left	hold down
+1920	M02INST0	21	178	299	198	14	center	Close in; once the fields neutralize, mash
+1920	M02INST0	105	199	299	220	14	left	in turn to break its AT Field
+# M03INST0 : sniping
+1968	M03INST0	35	48	63	80	14	right	With
+1968	M03INST0	85	48	106	80	13	center	put
+1968	M03INST0	125	48	150	80	13	center	on
+1968	M03INST0	170	48	287	80	14	left	
+1968	M03INST0	35	114	98	147	14	right	When
+1968	M03INST0	157	114	287	147	14	left	meet in the middle
+1968	M03INST0	84	151	173	187	13	center	appears, press
+1968	M03INST0	230	151	287	187	14	left	to fire
+# M04INST0 : Jet Alone
+2071	M04INST0	123	32	279	51	15	center	Catch up to JA
+2071	M04INST0	123	61	250	82	13	left	in turn to run and
+2071	M04INST0	74	83	250	104	13	center	catch JA within the time limit
+2071	M04INST0	123	120	279	139	15	center	Hold JA back
+2071	M04INST0	74	148	208	170	13	right	For a set time, use
+2071	M04INST0	229	148	252	170	22	center	+
+2071	M04INST0	123	171	250	194	13	left	to hold JA back
+# M05INST0 : command input
+2121	M05INST0	113	46	205	63	14	center	Command Input
+2121	M05INST0	30	76	284	95	14	center	While the command line crosses
+2121	M05INST0	30	96	172	115	14	right	the input zone, use
+2121	M05INST0	208	96	284	115	14	left	to enter
+2121	M05INST0	30	116	284	133	14	center	the three commands shown
+2121	M05INST0	185	199	256	208	9	left	command line
+# M06INST0 : magma dive
+2238	M06INST0	29	39	130	58	14	center	Find the Angel
+2238	M06INST0	29	65	130	105	14	center	Lock On
+2238	M06INST0	29	114	130	171	14	center	Attack
+2238	M06INST0	29	179	130	198	14	center	Evade
+2238	M06INST0	134	66	290	85	14	center	Center the Angel
+2238	M06INST0	134	86	194	105	14	right	and press
+2238	M06INST0	213	86	290	105	14	left	
+2238	M06INST0	134	115	227	134	14	right	Enter with
+2238	M06INST0	262	115	290	134	14	left	
+2238	M06INST0	134	135	290	153	14	center	the commands
+2238	M06INST0	134	154	290	171	14	center	shown on screen
+# M07INST0 : catch the Angel
+2321	M07INST0	134	29	286	48	14	center	Jump the obstacles
+2321	M07INST0	163	56	286	73	13	left	widens the zone
+2321	M07INST0	55	110	118	128	11	center	Success zone
+2321	M07INST0	139	110	205	128	13	left	to jump
+2321	M07INST0	134	141	286	160	14	center	Hold up the Angel
+2321	M07INST0	33	168	286	188	14	center	Mash until the center gauge
+2321	M07INST0	33	189	136	208	14	right	swings right:
+2321	M07INST0	185	189	286	208	14	left	in turn
+# M08INST0 : battle controls
+2322	M08INST0	21	36	102	55	15	center	Move
+2322	M08INST0	21	61	102	80	15	center	Attack
+2322	M08INST0	21	86	102	105	15	center	Guard
+2322	M08INST0	21	111	102	130	15	center	Grab
+2322	M08INST0	21	136	102	175	15	center	Dodge /\nRun
+2322	M08INST0	21	182	102	201	15	center	AT Field
+2322	M08INST0	188	111	299	130	15	left	together
+2322	M08INST0	171	136	299	155	14	left	to run (you must
+2322	M08INST0	107	156	299	175	14	center	be some distance away)
+2322	M08INST0	161	182	299	201	15	left	hold down
+# M09INST0 : dummy plug
+2343	M09INST0	41	64	79	159	13	center	Attack
+2343	M09INST0	84	66	280	86	14	center	As the action plays out,
+2343	M09INST0	84	89	280	110	14	center	enter the combinations of
+2343	M09INST0	102	113	122	134	22	center	+
+2343	M09INST0	177	113	280	134	14	left	that appear
+2343	M09INST0	84	136	280	158	14	center	
+# M10INST0 : lance throw
+2372	M10INST0	132	36	276	55	14	center	Correct your aim
+2372	M10INST0	102	64	266	84	13	left	to set the lance's position
+2372	M10INST0	58	85	266	105	13	center	and angle on the target center
+2372	M10INST0	58	106	266	126	13	center	(bring X and Y close to 0)
+2372	M10INST0	132	136	276	156	14	center	Break the AT Field
+2372	M10INST0	58	166	266	186	14	center	Mash until the center gauge
+2372	M10INST0	58	187	136	205	13	right	swings right:
+2372	M10INST0	185	187	266	205	13	left	in turn
+# M11INST0 : battle with a knife
+2376	M11INST0	21	46	102	64	15	center	Move
+2376	M11INST0	21	71	102	89	15	center	Attack
+2376	M11INST0	21	95	102	114	14	center	Guard / Parry
+2376	M11INST0	21	120	102	139	15	center	Grab
+2376	M11INST0	21	145	102	184	15	center	Clash
+2376	M11INST0	132	71	192	89	14	left	slash
+2376	M11INST0	240	71	299	89	14	left	thrust
+2376	M11INST0	188	120	299	139	15	left	together
+2376	M11INST0	107	145	299	164	14	center	Mash until the center gauge
+2376	M11INST0	107	165	178	184	13	right	swings right:
+2376	M11INST0	227	165	299	184	13	left	in turn
+# M12INST0 : battle controls
+2377	M12INST0	22	56	101	72	15	center!	Move
+2377	M12INST0	21	77	102	95	15	center	Attack
+2377	M12INST0	21	100	102	118	15	center	Guard
+2377	M12INST0	21	122	102	141	15	center	Grab
+2377	M12INST0	21	145	102	164	15	center	Dodge
+2377	M12INST0	21	169	102	187	15	center	AT Field
+2377	M12INST0	188	122	299	141	15	left	together
+2377	M12INST0	161	169	299	187	15	left	hold down
+# M13INST0 : battle with the sword
+2378	M13INST0	21	31	102	50	15	center	Move
+2378	M13INST0	21	54	102	73	15	center	Attack
+2378	M13INST0	21	77	102	96	15	center	Guard
+2378	M13INST0	21	100	102	119	15	center	Grab
+2378	M13INST0	21	123	102	142	14	center	Take Sword
+2378	M13INST0	21	146	102	185	15	center	Dodge /\nRun
+2378	M13INST0	21	189	102	208	15	center	AT Field
+2378	M13INST0	188	100	299	119	15	left	together
+2378	M13INST0	107	123	220	142	14	right	near the sword:
+2378	M13INST0	171	146	299	165	14	left	to run (you must
+2378	M13INST0	107	166	299	185	14	center	be some distance away)
+2378	M13INST0	161	189	299	208	15	left	hold down
+# M14INST0 : final battle
+2379	M14INST0	21	98	102	117	15	center	Move
+2379	M14INST0	21	122	102	140	15	center	Attack

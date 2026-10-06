@@ -1,0 +1,20 @@
+# Copyrighted game material never goes into git
+games/*/original/
+games/*/work/
+*.z64
+*.n64
+*.v64
+
+# Local tool environments and downloaded tools
+.venv/
+__pycache__/
+*.pyc
+tools/ares/
+tools/bizhawk/
+tools/xdelta3/
+tools/evangelion-decomp/
+
+# Odds and ends
+*.log
+*.tmp
+Thumbs.db

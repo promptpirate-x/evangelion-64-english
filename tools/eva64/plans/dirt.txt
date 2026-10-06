@@ -1,0 +1,16 @@
+# Look for noise around subtitles when memory is "dirty": visit other scenes first, no save-state reload.
+timeout 1800
+sheet 2 4 640 240
+wait 600
+press Start 4
+wait 400
+poke 0D5114 2 54
+wait 1500
+poke 0D5114 2 67
+wait 2500
+poke 0D5114 2 43
+wait 500
+record 1600 200 s43
+poke 0D5114 2 64
+wait 300
+record 1200 200 s64

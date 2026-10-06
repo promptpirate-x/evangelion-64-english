@@ -1,0 +1,12 @@
+# Company credit card with the translator credit.
+timeout 1500
+wait 600
+press Start 4
+wait 400
+poke 0D5114 2 37
+wait 1770
+record 120 20 fadein
+wait 100
+shot card
+wait 400
+shot later

@@ -1,0 +1,40 @@
+# Evangelion 64 original font, read by eye from the font sheet on 2026-10-03.
+# 538 glyphs in font order, 16 per line, separated by single spaces.
+# Glyph number N has text code N + 0x10. Glyph 0 is the blank (space) glyph, written as SP.
+# Glyphs that are not a single character are written in braces: {15} {N2} {th}.
+# The font has V and D twice; the second copies are written full-width (Ｖ Ｄ) so codes stay unique.
+# Glyph 359 is a short dash, written － to keep it apart from the long vowel mark ー (glyph 8).
+SP 、 。 ・ : ? ! 々 ー 「 」 0 1 2 3 4
+5 6 7 8 9 A E J N R T V あ い え か
+が く け こ さ ざ し す せ そ た だ っ つ て で
+と な に ぬ ね の は ば ぶ へ ま み む め も よ
+ら り る れ わ を ん ァ ア ィ イ ェ エ オ カ キ
+ギ ク グ ゲ コ サ シ ジ ス セ ッ テ ト ド ネ パ
+ビ フ ボ ポ ミ ム ャ ラ リ ル レ ロ ン ヴ 綾 安
+尉 違 域 一 影 於 央 応 下 化 加 火 荷 我 会 解
+開 外 各 確 学 活 葛 完 貫 間 関 丸 危 機 記 起
+球 距 京 共 強 恐 響 業 近 空 君 軍 迎 撃 言 限
+己 五 後 御 誤 功 工 攻 行 降 号 国 込 差 塞 作
+参 使 司 始 姿 子 市 止 私 事 持 時 磁 自 七 室
+射 守 手 受 修 襲 週 集 重 出 準 処 初 除 照 上
+城 場 常 心 新 進 人 制 成 正 接 宣 戦 線 全 惣
+送 足 体 対 態 退 第 題 達 担 地 着 中 長 直 通
+停 定 碇 敵 転 点 伝 電 徒 倒 投 東 当 到 動 同
+特 突 内 謎 二 弐 日 入 如 認 年 念 能 波 排 敗
+迫 爆 発 披 非 飛 備 標 不 部 復 物 別 方 砲 忘
+防 本 未 無 滅 免 猛 目 勿 問 融 預 容 様 用 要
+陽 抑 来 雷 離 陸 立 流 力 令 零 連 炉 露 論 殲
+… {15} 反 理 由 や 笑 思 う 現 在 鉄 急 終 了 決
+源 ぁ 秒 ケ 恥 お 浅 山 震 研 究 所 報 告 書 口
+明 観 測 結 果 タ 青 － 回 収 許 可 得 ウ 失 類
+消 何 ～ D 型 装 計 算 早 ぎ 羽 暴 走 食 避 巨
+大 洋 衛 星 軌 道 ご 落 {N2} 航 効 半 径 以 民 ち
+難 最 意 配 置 女 感 奇 跡 き 万 千 位 ○ 輸 実
+験 絶 境 界 破 高 乗 取 ダ プ 刻 棄 識 路 切 替
+ろ 前 総 員 種 闘 ゼ 及 び 翼 広 げ 試 光 精 神
+汚 染 Y 険 改 狙 じ ヌ 槍 断 擲 廃 墟 景 見 {th}
+チ 渚 ヲ 歌 変 換 少 覚 交 深 誰 操 ブ 沈 黙 的
+為 背 壊 謀 死 生 与 S 隊 底 湖 隠 呆 然 状 今
+毒 べ 量 産 ズ 費 ず 残 赴 分 壁 ユ ニ ゾ 必 ハ
+バ デ ォ マ 圧 再 度 移 忌 存 約 束 占 拠 . %
+勝 鎮 者 Ｖ Ｄ 請 顔 ど 侵 略

@@ -1,0 +1,310 @@
+# Evangelion 64 English script. Tab separated: string id, English text.
+# Ids come from work\extract\text\strings_jp.tsv. \n is a line break. Lines starting with # are notes.
+# Build with:  tools\eva64\build.bat scripts\strings_en.tsv eva64_en en
+# Speakers are not shown in the game; they are noted here from the scene.
+#
+# ===== Mission 1: 3rd Angel, Sachiel =====
+# --- Scene 43: opening narration ---
+0017	15 years since Second Impact.
+0018	A mysterious object nears land.
+0019	UN forces launch a fierce assault.
+0020	But the object\ndoes not budge an inch.
+0021	Is conventional firepower\nno match for it...?
+0022	NERV HQ, Central Command
+# Fuyutsuki
+0023	"...It's been fifteen years."
+# Gendo
+0024	"Yes, there's no mistake.\n It's an Angel..."
+# --- Scene 43: briefing screen (target / unit / mission) ---
+0005	3rd Angel, Sachiel
+0006	Unit-01
+0007	Destroy the Angel\nright above NERV HQ.
+# --- Scene 44: launch ---
+# Misato
+0025	"Prepare for launch!"
+# Misato
+0026	"Hold it off with the intercept\n system until Unit-01 launches!"
+# Misato, to Gendo
+0027	"Is that all right with you?"
+# Gendo
+0028	"Of course. Unless we defeat the\n Angels, we have no future."
+# Fuyutsuki, to Gendo
+0029	"Ikari...\n are you sure about this?"
+# Misato
+0030	"Launch!!"
+# 0031 第3使徒 サキエル and 0032 殲  滅: nothing points at these and the on-screen card
+# looks like an image, so they are probably unused. They cannot move, so [FIT]: 9 and 4 characters.
+0031	Sachiel
+0032	Dead
+#
+# ===== Mission 2: 4th Angel, Shamshel =====
+# --- Scene 47: opening narration ---
+0033	Across all of Kanto and Chubu,\ncentered on the Tokyo region,
+0034	a special emergency is declared.
+0035	Three weeks after Sachiel fell
+0036	Is this a new Angel attack...?
+# NERV announcement
+0037	"All personnel,\n Level One battle stations."
+# --- Briefing ---
+0008	4th Angel, Shamshel
+0009	Unit-01
+0010	Destroy the Angel\nabove Tokyo-3.
+#
+# ===== Mission 3: 5th Angel, Ramiel =====
+# --- Scene 51: opening narration ---
+0038	An unknown object approaches.
+0039	The fifth Angel.
+0040	The Angel...\nbegins invading the Geofront.
+0041	The Angel automatically destroys
+0042	any threat within a set range.
+0043	And it has a powerful AT Field.
+0044	A true flying fortress!
+0045	Is there any way to defeat it?
+0046	Captain Katsuragi urges a direct
+0047	attack from extreme range.
+# Gendo (the game holds this line twice)
+0048	"I see no reason to object.\n Go ahead, Captain Katsuragi."
+0049	"I see no reason to object.\n Go ahead, Captain Katsuragi."
+# Misato (held twice)
+0050	"I will now give your assignments\n for this operation."
+0051	"I will now give your assignments\n for this operation."
+# Misato
+0052	"Shinji,\n you'll be the gunner in Unit-01."
+0053	"Rei, you'll handle defense\n in Unit-00."
+# Ritsuko
+0054	"Earth's spin, magnetic field and\n gravity bend a positron's path."
+0055	"Don't forget to correct\n for that error."
+# Rei
+0056	"So I...\n just need to protect Unit-01."
+# narration
+0057	All of Japan's electricity...
+0058	...flows into the Positron Rifle.
+0059	The operation begins.
+# Misato
+0060	"Shinji."
+0061	"I'm entrusting all of Japan's\n energy to you."
+0062	"Good luck!"
+# --- Briefing ---
+0011	5th Angel, Ramiel
+0012	Unit-01 / Unit-00
+0013	Direct attack from\nextreme range with\nthe Positron Rifle.
+# --- Scene 52: sniping ---
+0067	"Begin power transmission."
+0068	"Cock the hammer."
+0069	"High-energy reaction in target!"
+# Misato
+0070	"What did you say?!"
+# Shinji
+0071	"I missed!"
+# Misato
+0072	"Hurry with the second shot!"
+# Shinji
+0073	"Ayanami!"
+0074	"Hurry!"
+0075	"Hurry up!!"
+0076	"Waaaaaaaaagh..."
+# --- Scene 54: ending ---
+# Shinji
+0063	"Ayanami!"
+0064	"I think you should smile."
+# 0065 第5使徒 ラミエル and 0066 殲  滅: as 0031/0032, probably unused, cannot move.
+0065	Ramiel
+0066	Dead
+#
+# ===== Jet Alone text held in the first text block =====
+# Mission 4's real text is in the second block (ids 0085 onward). These copies may be unused.
+# 0004 is the label the briefing draws as text for mission 4 only.
+0004	Target:
+0014	Jet Alone
+0015	Unit-01
+0016	Get Capt. Katsuragi\ninside JA and hold\nJA back until it\nshuts down.
+# 日本重化学工業共同体 is shortened to "Japan Heavy Chemical Ind." to fit; the official name is
+# "Japan Heavy Chemical Industrial Cooperative".
+0077	An unmanned anti-Angel robot\nfrom Japan Heavy Chemical Ind.
+0078	At the unveiling ceremony,\nits start-up test was underway.
+0079	"Jet Alone"
+0080	Suddenly, it goes out of control.
+0081	A reactor meltdown is feared.
+#
+# ===== Mission 4: Jet Alone (second text block starts here) =====
+# 0082-0084 (Rei and Shinji's exchange from the end of mission 3) have nothing pointing
+# at them and cannot move; left untranslated until the trace shows whether they are drawn.
+0085	An unmanned anti-Angel robot\nfrom Japan Heavy Chemical Ind.
+0086	"Jet Alone"
+0087	At the unveiling ceremony,\nits start-up test was underway.
+0088	A reactor meltdown is feared.
+0089	Target:
+0090	Jet Alone
+0091	Unit-01
+0092	Get Capt. Katsuragi\ninside JA and\nshut JA down.
+# Misato
+0093	\n"That miracle was arranged..."
+0094	\n"...by someone."
+#
+# ===== Mission 5: 7th Angel, Israfel =====
+0095	A 7th Angel attack is confirmed.
+0096	Unit-01 and Unit-02 are deployed.
+0097	\nBeaten by the Angel,
+0098	\nUnit-01 and Unit-02
+0099	\nmake a sorry sight.
+0100	\nFor now, UN forces have dropped
+0101	\nan N2 mine and halted the Angel.
+0102	\nBut it will soon advance again.
+0103	\nTo defeat the Angel,
+0104	\nboth cores must be struck
+0105	\nat once while it is split in two.
+0106	\nFor that,
+0107	\nShinji and Asuka must be
+0108	\nin perfect unison.
+0109	7th Angel, Israfel
+0110	Unit-01 / Unit-02
+0111	Destroy the Angel\nwith a simultaneous\ntwo-Eva strike.
+#
+# ===== Mission 6: 8th Angel, Sandalphon =====
+0112	A report from the Mt. Asama\nSeismological Laboratory
+0113	confirms the shadow of\nsomething inside the crater.
+0114	Observation result: Pattern Blue.
+0115	Confirmed as an Angel.
+# SEELE committee
+0116	"Failure will not be tolerated."
+0117	Gendo requests an A-17 and\nis cleared to capture the Angel.
+# Fuyutsuki
+0118	\n"Failure? Then humanity\n itself will vanish."
+0119	"Eva Type-D Equipment"
+0120	Unit-02 enters the Asama crater.
+0121	Unit-02 begins its descent.
+0122	The capture seemed a success...
+0123	The Angel begins to hatch!
+0124	8th Angel, Sandalphon
+0125	Unit-02
+0126	Destroy the Angel\nin the magma.
+#
+# ===== Mission 7: 10th Angel, Sahaquiel =====
+0127	The 10th Angel.\nThe gigantic object suddenly
+0128	appears in satellite orbit\nabove the Indian Ocean.
+0129	It is expected to drop its\nentire body onto NERV HQ.
+0130	\nN2 aerial mines have no effect.
+0131	Misato issues\nSpecial Order D-17.
+0132	All citizens within 50 km\nare to evacuate at once.
+0133	\nMisato decides to have the three
+0134	\nEvas, AT Fields at maximum,
+0135	\ncatch the Angel directly.
+0136	\nThe odds of success: 0.00001%.
+0137	\nWill a miracle happen...?
+0138	10th Angel, Sahaquiel
+0139	All Evas
+0140	Catch the Angel with\nthree Evas, then\ndestroy it.
+0141	\nThe operation is a great success.
+# Gendo
+0142	\n"You did well, Shinji."
+#
+# ===== Mission 8: 13th Angel, Bardiel =====
+0143	Eva Unit-03 is being transported.
+0144	Eva Unit-03 Activation Test
+0145	\nThe test seemed to go smoothly...
+0146	\nBut then,\nthe sync graph suddenly inverts,
+0147	\nA high-energy reaction inside it!!
+# Misato
+0148	\n"Abort the test! Is it an Angel?!"
+0149	Eva Unit-03, taken by an Angel.
+# Gendo
+0150	\n"As of now, Unit-03 is abandoned.
+0151	\nOur target is the 13th Angel."
+0152	Unit-02 and Unit-00 fall\nbefore Eva Unit-03.
+# Gendo
+0153	\n"Switch to the Dummy Plug."
+0154	13th Angel, Bardiel
+0155	Unit-01
+0156	Destroy the Angel\nwith the Dummy Plug.
+#
+# ===== Mission 9: 14th Angel, Zeruel =====
+0157	Without any warning,\nthe 14th Angel appears.
+0158	Rei attacks with an N2 mine.
+0159	14th Angel, Zeruel
+0160	Unit-01
+0161	Eject the Angel\nabove the Geofront\nand destroy it.
+#
+# ===== Mission 10: 15th Angel, Arael =====
+0162	\nThe 15th Angel appears in orbit.
+0163	\nIts huge wings spread wide,
+0164	\nthe Angel does not move.
+0165	\nWith the Positron Rifle,
+0166	\nUnit-02 tries to destroy the Angel.
+0167	\nJust then, a mysterious light...
+0168	\nIs the Angel attacking her mind?
+0169	\nAsuka's mental contamination: Y!
+0170	\nAt this rate...
+0171	Unit-00, with the high-output\nModified Positron Rifle,
+0172	\ntakes aim at the Angel.
+0173	\nA direct hit...
+0174	\nBut the AT Field
+0175	\ndeflects it.
+# Gendo
+0176	\n"Never mind. Rei,"
+0177	\n"go to Dogma and use the Lance."
+0178	Unit-00\ntakes up the Lance of Longinus.
+0179	15th Angel, Arael
+0180	Unit-00
+0181	Destroy the Angel\nin orbit with the\nLance of Longinus.
+#
+# ===== Mission 11: 17th Angel, Tabris =====
+0182	\nThe battle with the 16th Angel
+0183	\nhas left Tokyo-3 in ruins.
+0184	\nShinji gazes at the sight...
+0185	\nThe Fifth Child, Kaworu Nagisa.
+# Kaworu
+0186	\n"Songs are good."
+0187	\n"Call me Kaworu, Shinji Ikari."
+0188	\nThe Fifth Child's sync test.
+0189	\nKaworu syncs without\nany change to the core.
+0190	\nJust who is this boy...?
+0191	\nShinji
+0192	\nfeels at ease with Kaworu...
+0193	\nand they grow closer...
+0194	\nSuddenly, Eva Unit-02 activates?!
+0195	\nWho could be controlling it...?
+0196	Controlling Unit-02 is\nthe Fifth Child, Kaworu Nagisa.
+# シ者 is wordplay in the Japanese (messenger / the dead); this follows the official episode title.
+0197	\nAnd the final messenger...
+0198	17th Angel, Tabris
+0199	Unit-01
+0200	Silence Unit-02, which\nKaworu controls, and\ndestroy the Angel.
+#
+# ===== Mission 12: JSSDF =====
+# SEELE
+0201	\n"The promised time has come."
+0202	\nThe last Angel is destroyed.
+0203	SEELE,\nto achieve its final goal,
+0204	\nplots to seize NERV HQ directly.
+# Gendo
+0205	\n"Death creates nothing."
+# SEELE
+0206	\n"Death is what we give you."
+0207	The JSSDF's all-out assault\non NERV has begun.
+# Fuyutsuki
+0208	\n"So the last enemy was\n our fellow man after all..."
+0209	\nHidden in the underground lake
+0210	\nfor safety: Asuka and Unit-02.
+0211	\nAsuka, who had been catatonic...
+0212	\nnow awakens...
+0213	JSSDF
+0214	Unit-02
+0215	Repel the JSSDF\nin the Geofront.
+#
+# ===== Mission 13: Eva Series =====
+# SEELE
+0216	\n"The Eva, that abhorrent thing."
+0217	"As expected, poison must\n be fought with poison."
+# Asuka
+0218	\n"The Eva Series..."
+0219	\n"So they were finished..."
+0220	\n"Destroy them all... right..."
+0221	Eva Series
+0222	Unit-02
+0223	Destroy every unit\nof the Eva Series.
+0224	The Eva Series, supposedly\ndestroyed... revives!
+0225	\n"The Eva Series is active again!!"
+0226	\n"Is... is this Unit-02?!"
+# 0227 「シンジ君…弐号機が…アスカが…アスカがー」 has nothing pointing at it; left until the trace.
+0228	And then...
+0229	Unit-01 rises...

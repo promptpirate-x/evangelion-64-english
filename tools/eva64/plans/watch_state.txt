@@ -1,0 +1,15 @@
+# Log the game-state words while going from power-on into mission 1.
+watch 0D5114 2
+watch 0D5118 2
+watch 0D511C 1
+wait 600
+press Start 4
+wait 240
+press A 4
+wait 240
+press A 4
+wait 120
+press A 4
+wait 6600
+press A 4
+record 1800 150 after_briefing

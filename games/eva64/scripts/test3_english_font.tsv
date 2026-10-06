@@ -1,0 +1,15 @@
+# Test 3: English font. Build with:  tools\eva64\build.bat scripts\test3_english_font.tsv eva64_test3 en
+# Placeholder wording to test the font and layout, not the real translation.
+# Lines not listed here stay Japanese codes and will show as wrong letters, because
+# the English letters replace kana in the font. That is expected in this test.
+# Mission 1 briefing (same length or shorter than the Japanese, so nothing moves):
+0005	Sachiel
+0006	Eva
+0007	Destroy the Angel
+# Mission 1 opening narration (longer than the Japanese):
+0017	Fifteen years since Second Impact.
+0018	An unknown object nears the shore.
+# Later lines cut short only to make room for the two above:
+0026	"Go!"
+0028	"Yes."
+0029	"Hm."

@@ -1,0 +1,14 @@
+# Mission 1 text check: intro + briefing (scene 43) and launch cutscene (scene 44).
+timeout 1800
+sheet 5 5 256 192
+watch 0D5114 2
+wait 600
+press Start 4
+wait 400
+save menu
+poke 0D5114 2 43
+wait 4700
+record 400 200 s43_briefing
+load menu
+poke 0D5114 2 44
+record 2700 45 s44

@@ -1,0 +1,8 @@
+# Does writing the scene number jump to another scene? Boot to the story menu, then set scene 44.
+watch 0D5114 2
+wait 600
+press Start 4
+wait 400
+shot before
+poke 0D5114 2 44
+record 3600 150 scene44

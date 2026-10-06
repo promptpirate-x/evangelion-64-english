@@ -1,0 +1,198 @@
+# English text images. Columns (tab separated):
+# file	name	text	size	weight	width%	align	x	baseline
+# 10th column: "soft3" = coarse 3-step edge softening, "hard" or a pixel value = hard letter edges. Cards that fade in use soft3:
+# Project64 draws their in-between values as scattered dots, so finer softening looks worse there (15 steps was tried).
+# Briefing screen labels (originals: 作戦内容 : / 使用EVA : / 攻撃目標 :). Right-aligned so the colons line up. The value text starts about 91 pixels from the image's left edge, so the colon must end by x=86.
+0875	D01SXT00	Mission:	18	700	75	right	86	18
+0876	D01SXT01	Unit:	18	700	75	right	86	18
+0877	D01SXT02	Target:	18	700	75	right	86	18
+#
+# ===== Mission title cards =====
+# The Japanese cards are the TV episode titles. English wording follows the usual
+# translations of those Japanese titles. Sizes: 288x216 or 288x208 unless noted.
+# M1 使徒、襲来
+0774	D01S8T00	Mission 1	22	700	75	left	24	44	soft3
+0774	D01S8T00	Angel	64	900	62.5	left	22	120	soft3
+0774	D01S8T00	Attack	64	900	62.5	left	22	185	soft3
+# M2 鳴らない、電話
+0931	D02S7T00	The Silent	56	900	62.5	left	18	70	soft3
+0931	D02S7T00	Phone	56	900	62.5	left	18	128	soft3
+0931	D02S7T00	Mission 2	22	700	75	right	270	192	soft3
+# M3 決戦、第3新東京市
+1093	D03STT00	Showdown	54	900	62.5	left	18	70	soft3
+1093	D03STT00	in Tokyo-3	54	900	62.5	left	18	128	soft3
+1093	D03STT00	Mission 3	22	700	75	left	20	192	soft3
+# M4 人の造りしもの
+1107	D04S4T00	The Human	50	900	62.5	left	18	70	soft3
+1107	D04S4T00	Creation	50	900	62.5	left	18	128	soft3
+1107	D04S4T00	Mission 4	22	700	75	left	20	192	soft3
+# M5 瞬間、心、重ねて
+2181	M05STITL	Mission 5	22	700	75	right	270	32	soft3
+2181	M05STITL	Moment,	48	900	62.5	left	18	86	soft3
+2181	M05STITL	Heart,	48	900	62.5	left	18	136	soft3
+2181	M05STITL	Together	48	900	62.5	left	18	186	soft3
+# M6 マグマダイバー
+1168	D06TITLE	Magma	64	900	62.5	left	18	78	soft3
+1168	D06TITLE	Diver	64	900	62.5	left	18	144	soft3
+1168	D06TITLE	Mission 6	22	700	75	right	270	196	soft3
+# M7 奇跡の価値は
+1215	D07STITL	The Value of	46	900	62.5	left	14	60	soft3
+1215	D07STITL	a Miracle Is	46	900	62.5	left	14	110	soft3
+1215	D07STITL	Mission 7	22	700	75	left	16	184	soft3
+# M8 命の選択を
+1272	D08TITLE	Mission 8	22	700	75	left	20	42	soft3
+1272	D08TITLE	The Choice	54	900	62.5	left	18	108	soft3
+1272	D08TITLE	of Life	54	900	62.5	left	18	166	soft3
+# M9 男の戦い
+1284	D09TITLE	Mission 9	22	700	75	center	144	74	soft3
+1284	D09TITLE	A Man's Battle	44	900	62.5	center	144	128	soft3
+# M10 せめて、人間らしく
+1355	D10TITLE	At Least,	54	900	62.5	left	18	70	soft3
+1355	D10TITLE	Be Human	54	900	62.5	left	18	128	soft3
+1355	D10TITLE	Mission 10	22	700	75	left	20	192	soft3
+# M11 最後のシ者 (two images: the mission number, then the title)
+1483	D11TITL0	Mission 11	30	700	75	center	144	114	soft3
+1484	D11TITL1	The Final	54	900	62.5	center	144	92	soft3
+1484	D11TITL1	Messenger	54	900	62.5	center	144	152	soft3
+# M12 Air (64x64; the title was already English)
+1554	D12TITLE	Mission 12	10	700	75	center	32	14	soft3
+1554	D12TITLE	Air	34	900	62.5	center	32	50	soft3
+# M13 まごころを、君に (two images)
+1625	D14TITLA	Mission 13	22	700	75	center	234	138	soft3
+1626	D14TITLE	Sincerely	50	900	62.5	center	144	96	soft3
+1626	D14TITLE	Yours	50	900	62.5	center	144	152	soft3
+#
+# ===== "Angel destroyed" cards =====
+# The game assembles these from pieces in a fixed order: 第 + number + 使徒 + name, then 殲滅 below.
+# The number images (D99EDN00-09) are left alone. English reads "No. 3 Angel Sachiel / Destroyed".
+1628	D99ED001	No.	19	900	62.5	center	16	29	soft3
+1629	D99ED002	Angel	24	900	62.5	center	32	29	soft3
+1627	D99ED000	Destroyed	22	900	62.5	center	48	34	soft3
+1630	D99ED004	Shut Down	34	900	62.5	center	80	35	soft3
+1631	D99EDA03	Sachiel	30	900	62.5	left	3	30	soft3
+1632	D99EDA04	Shamshel	30	900	62.5	left	3	30	soft3
+1633	D99EDA05	Ramiel	30	900	62.5	left	3	30	soft3
+1634	D99EDA07	Israfel	30	900	62.5	left	3	30	soft3
+1635	D99EDA08	Sandalphon	30	900	62.5	left	3	30	soft3
+1636	D99EDA10	Sahaquiel	30	900	62.5	left	3	30	soft3
+1637	D99EDA13	Bardiel	30	900	62.5	left	3	31	soft3
+1638	D99EDA14	Zeruel	30	900	62.5	left	3	30	soft3
+1639	D99EDA15	Arael	30	900	62.5	left	3	30	soft3
+1640	D99EDA17	Tabris	30	900	62.5	left	3	30	soft3
+1641	D99EDAJA	Jet Alone	34	900	62.5	left	3	31	soft3
+#
+# ===== Story cards and captions =====
+# 時に、西暦2015年
+0727	D01S1T00	The year is 2015 A.D.	30	900	62.5	center	128	31	soft3
+# 突如、暴走
+1112	D04SBOSO	Suddenly,	30	900	62.5	center	144	84	soft3
+1112	D04SBOSO	Out of Control	46	900	62.5	center	144	140	soft3
+# 2000年 南極大陸
+0636	D00S1000	2000 A.D. Antarctica	32	900	62.5	center	136	33	soft3
+# 最大シンクロ率
+0573	D00BAB13	Max Sync Ratio	15	700	62.5	center	48	18
+# 日本標準時
+1064	D03SJC02	Japan Standard Time	15	700	62.5	center	64	21
+#
+# ===== Opening credits =====
+# These cards use groups of values as separate layers, so each piece names its value in a 10th column (hard edges).
+# 株式会社バンダイ 制作
+0649	D00S3	Produced by	24	700	75	left	20	40	11
+0649	D00S3	BANDAI	56	900	62.5	left	18	100	6
+0649	D00S3	Co., Ltd.	22	700	75	left	20	130	1
+# fan translation credit, added to this card (not in the original game). The parrot is made by tools\eva64\makeparrot.py.
+0649	D00S3	@bitmap:credit_parrot.png	0	0	0	left	18	146
+0649	D00S3	English translation by	15	700	75	left	86	174	11
+0649	D00S3	PromptPirate	22	900	62.5	left	86	197	11
+# 株式会社ガイナックス
+0658	D00S5	GAINAX	60	900	62.5	left	18	110	6
+0658	D00S5	Co., Ltd.	26	700	75	left	20	150	1
+# 株式会社BEC SECTION3 開発
+0684	D00SECT3	Developed by	26	700	75	left	20	50	15
+0684	D00SECT3	BEC Co., Ltd.	52	900	62.5	left	18	115	15
+0684	D00SECT3	SECTION 3	40	900	62.5	left	18	170	7
+# copyright lines (テレビ東京 = TV Tokyo, 製作委員会 = production committee)
+0587	D00COPY0	(C)GAINAX/Project Eva., TV Tokyo	15	700	75	center	144	15
+0588	D00COPY1	(C)1997 GAINAX/EVA Production Committee	15	700	62.5	center	136	15
+#
+# ===== Menus, result screens, name strips, small signs =====
+514	_GOVER01	MISSION FAILED	34	900	62.5	center	128	58
+515	_GOVER02	OPERATION FAILED	34	900	62.5	center	128	58
+533	_TEXT2	Now in production	12	700	68	left	2	12
+705	D00SSB00	Motion	22	900	62.5	center	48	27
+706	D00SSC00	Resolution	17	900	62.5	left	3	26
+712	D00SSJ00	@frame	2	700	68	left	0	0
+712	D00SSJ00	In Session	13	700	68	center	32	17
+713	D00SSJ01	@frame	2	700	68	left	0	0
+713	D00SSJ01	Passed	13	700	68	center	32	17
+714	D00SSJ02	@frame	2	700	68	left	0	0
+714	D00SSJ02	Rejected	13	700	68	center	32	17
+1177	D07S4A00	All Lanes Outbound	15	700	68	center	72	21
+# erase-data confirmation (全てのファイルとデータを初期設定に戻ります。/ 本当にいいですか?)
+1861	G00STH01	All files and data will be	19	700	68	left	3	20
+1861	G00STH01	reset to their defaults.	19	700	68	left	3	43
+1862	G00STH02	Are you sure?	19	700	68	left	3	19
+# Jet Alone password 希 / 望 (two tiles spelling HOPE)
+2047	M04D9C00	HO	20	900	62.5	center	16	23
+2048	M04D9C01	PE	20	900	62.5	center	16	23
+# mission 5 choice 練習 / 実戦, mission 6 回避
+2232	M05TRS02	@frame	4	700	68	left	0	0
+2232	M05TRS02	Practice	15	700	68	center	32	25
+2233	M05TRS03	@frame	4	700	68	left	0	0
+2233	M05TRS03	Battle	16	700	68	center	32	25
+2283	M06MAG45	@frame	5	700	68	left	0	0
+2283	M06MAG45	EVADE	30	900	62.5	center	56	39
+2294	M07DBG03	Max Zoom	14	700	68	left	3	15
+2294	M07DBG03	Relay: Optical Obs. 3	10	700	68	left	3	33
+# simulation mode
+2395	M16GED00	Rounds used:	16	700	68	left	2	20
+2396	M16GED01	Angels destroyed:	16	700	68	left	2	20
+2420	M16GIN01	Weapon:	15	700	68	left	2	15
+2421	M16GIN02	Target:	15	700	68	left	2	15
+2422	M16GIN03	Pallet Gun	15	700	68	left	2	16
+2423	M16GIN04	Positron Rifle	15	700	68	left	2	16
+2424	M16GIN05	Handgun	15	700	68	left	2	16
+2425	M16GIN06	Launcher	15	700	68	left	2	16
+2426	M16GIN07	3rd Angel Sachiel	15	700	68	left	2	16
+2427	M16GIN08	5th Angel Ramiel	15	700	68	left	2	16
+2428	M16GIN09	9th Angel Matarael	15	700	68	left	2	16
+2429	M16GIN10	12th Angel Leliel	15	700	68	left	2	16
+2430	M16GIN11	14th Angel Zeruel	15	700	68	left	2	16
+2445	M16GSN01	Destroyed	13	700	68	center	24	18
+2588	TIMEA	TIME	13	700	68	left	2	13
+# model viewer name strips
+2484	MMVNAM00	Eva Unit-00	15	700	68	center	96	15
+2485	MMVNAM01	Eva Unit-01	15	700	68	center	96	15
+2486	MMVNAM02	Eva Unit-01 (Berserk)	15	700	68	center	96	15
+2487	MMVNAM03	Eva Unit-01 (Awakened)	15	700	68	center	96	15
+2488	MMVNAM04	Eva Unit-02	15	700	68	center	96	15
+2489	MMVNAM05	Eva Unit-02 (Awakened)	15	700	68	center	96	15
+2490	MMVNAM06	Eva Unit-03	15	700	68	center	96	15
+2491	MMVNAM07	Eva Type-D Equipment	15	700	68	center	96	15
+2492	MMVNAM08	Mass-Production Eva	15	700	68	center	96	15
+2493	MMVNAM09	Mass-Production Eva (Flight)	15	700	68	center	96	15
+2494	MMVNAM10	Lilith	15	700	68	center	96	15
+2495	MMVNAM11	3rd Angel Sachiel	15	700	68	center	96	15
+2496	MMVNAM12	4th Angel Shamshel (Flight)	15	700	68	center	96	15
+2497	MMVNAM13	4th Angel Shamshel	15	700	68	center	96	15
+2498	MMVNAM14	5th Angel Ramiel	15	700	68	center	96	15
+2499	MMVNAM15	7th Angel Israfel	15	700	68	center	96	15
+2500	MMVNAM16	8th Angel Sandalphon	15	700	68	center	96	15
+2501	MMVNAM17	9th Angel Matarael	15	700	68	center	96	15
+2502	MMVNAM18	10th Angel Sahaquiel	15	700	68	center	96	15
+2503	MMVNAM19	12th Angel Leliel	15	700	68	center	96	15
+2504	MMVNAM20	13th Angel Bardiel	15	700	68	center	96	15
+2505	MMVNAM21	14th Angel Zeruel	15	700	68	center	96	15
+2506	MMVNAM22	Jet Alone	15	700	68	center	96	15
+2507	MMVNAM23	UN Heavy VTOL Fighter	15	700	68	center	96	15
+2508	MMVNAM24	NERV Battleship	15	700	68	center	96	15
+2509	MMVNAM25	Eva Long-Range Transport	15	700	68	center	96	15
+2510	MMVNAM26	N2 Mine	15	700	68	center	96	15
+2511	MMVNAM27	Progressive Knife	15	700	68	center	96	15
+2512	MMVNAM28	Pallet Gun	15	700	68	center	96	15
+2513	MMVNAM29	Positron Rifle	15	700	68	center	96	15
+2514	MMVNAM30	Sonic Glaive	15	700	68	center	96	15
+2515	MMVNAM31	Handgun	15	700	68	center	96	15
+2516	MMVNAM32	Launcher	15	700	68	center	96	15
+2517	MMVNAM33	Lance of Longinus	15	700	68	center	96	15
+2518	MMVNAM34	Angel Catcher	15	700	68	center	96	15

@@ -1,0 +1,14 @@
+# Re-check of the mission 5 pause screen.
+timeout 900
+wait 600
+press Start 4
+wait 400
+poke 0D5114 2 59
+wait 600
+press Right 4
+wait 60
+press A 4
+wait 400
+press Start 10
+wait 60
+shot m5_pause

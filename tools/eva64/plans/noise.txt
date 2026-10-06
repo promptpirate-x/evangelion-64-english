@@ -1,0 +1,8 @@
+# Full-size captures of the mission 1 narration, to look for noise under the subtitles.
+timeout 1200
+wait 600
+press Start 4
+wait 400
+poke 0D5114 2 43
+wait 560
+record 1400 70 s43

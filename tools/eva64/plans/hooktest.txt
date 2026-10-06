@@ -1,0 +1,6 @@
+# Short test of sound tracing: mission 1 launch scene.
+wait 600
+press Start 4
+wait 400
+poke 0D5114 2 44
+record 2400 600 t

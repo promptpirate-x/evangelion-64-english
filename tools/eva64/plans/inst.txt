@@ -1,0 +1,19 @@
+# Where do instruction screens show? Press A on the briefing, then Start in battle.
+timeout 1800
+sheet 5 5 256 192
+watch 0D5114 2
+wait 600
+press Start 4
+wait 400
+save menu
+poke 0D5114 2 43
+wait 4900
+press A 4
+record 600 60 afterA
+press A 4
+record 600 60 afterA2
+load menu
+poke 0D5114 2 45
+wait 1200
+press Start 4
+record 300 60 pause

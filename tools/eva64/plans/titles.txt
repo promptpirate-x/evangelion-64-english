@@ -1,0 +1,59 @@
+# Mission title cards: a few pictures around the moment each card shows.
+timeout 3000
+sheet 5 6 256 192
+wait 600
+press Start 4
+wait 400
+save menu
+load menu
+poke 0D5114 2 43
+wait 3390
+record 480 120 s043
+load menu
+poke 0D5114 2 47
+wait 2460
+record 480 120 s047
+load menu
+poke 0D5114 2 51
+wait 1620
+record 480 120 s051
+load menu
+poke 0D5114 2 55
+wait 1
+record 480 120 s055
+load menu
+poke 0D5114 2 58
+wait 3480
+record 480 120 s058
+load menu
+poke 0D5114 2 61
+wait 2310
+record 480 120 s061
+load menu
+poke 0D5114 2 64
+wait 2130
+record 480 120 s064
+load menu
+poke 0D5114 2 67
+wait 690
+record 480 120 s067
+load menu
+poke 0D5114 2 70
+wait 780
+record 480 120 s070
+load menu
+poke 0D5114 2 73
+wait 600
+record 480 120 s073
+load menu
+poke 0D5114 2 76
+wait 1950
+record 480 120 s076
+load menu
+poke 0D5114 2 79
+wait 3570
+record 480 120 s079
+load menu
+poke 0D5114 2 83
+wait 60
+record 480 120 s083

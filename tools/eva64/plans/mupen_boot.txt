@@ -1,0 +1,21 @@
+# Does the ROM boot on BizHawk's default Mupen64Plus core (which does not recognise it, so the save chip is the 4K kind)?
+core mupen
+timeout 900
+sheet 4 3 320 240
+wait 300
+shot boot1
+wait 400
+press Start 4
+wait 300
+shot menu
+press A 4
+wait 300
+shot story
+press A 4
+wait 300
+shot story2
+press A 4
+wait 1500
+shot intro
+wait 1500
+shot intro2

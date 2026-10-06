@@ -1,0 +1,17 @@
+# Test 4: English font plus the letter-spacing code patch.
+# Build with:  tools\eva64\build.bat scripts\test4_spacing.tsv eva64_test4 en
+# Placeholder wording, not the real translation. Unlisted lines stay scrambled.
+# Briefing labels (cannot move, so at most 6 characters each):
+0001	Enemy:
+0002	Unit:
+0003	Plan:
+0005	Sachiel
+0006	Eva
+0007	Destroy the Angel
+# Opening narration. The first is 288 pixels wide, the second 303, to find the screen edge.
+0017	Fifteen years since Second Impact.
+0018	An unknown object nears the shore.
+# Cut short only to make room:
+0026	"Go!"
+0028	"Yes."
+0029	"Hm."

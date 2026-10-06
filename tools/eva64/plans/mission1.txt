@@ -1,0 +1,10 @@
+# Mission 1 from power-on through the intro to the briefing screen.
+wait 600
+press Start 4
+wait 240
+press A 4
+wait 240
+press A 4
+wait 120
+press A 4
+record 7200 120 m1

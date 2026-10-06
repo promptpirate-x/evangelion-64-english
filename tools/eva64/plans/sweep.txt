@@ -1,0 +1,251 @@
+# Scene sweep: boot to the main menu, save a state, then for each scene number reload, set it and take a few pictures.
+timeout 7000
+sheet 8 6 160 120
+watch 0D5114 2
+wait 600
+press Start 4
+wait 400
+save menu
+load menu
+poke 0D5114 2 30
+record 2400 400 s030
+load menu
+poke 0D5114 2 31
+record 2400 400 s031
+load menu
+poke 0D5114 2 32
+record 2400 400 s032
+load menu
+poke 0D5114 2 33
+record 2400 400 s033
+load menu
+poke 0D5114 2 34
+record 2400 400 s034
+load menu
+poke 0D5114 2 35
+record 2400 400 s035
+load menu
+poke 0D5114 2 36
+record 2400 400 s036
+load menu
+poke 0D5114 2 37
+record 2400 400 s037
+load menu
+poke 0D5114 2 38
+record 2400 400 s038
+load menu
+poke 0D5114 2 39
+record 2400 400 s039
+load menu
+poke 0D5114 2 40
+record 2400 400 s040
+load menu
+poke 0D5114 2 41
+record 2400 400 s041
+load menu
+poke 0D5114 2 42
+record 2400 400 s042
+load menu
+poke 0D5114 2 43
+record 2400 400 s043
+load menu
+poke 0D5114 2 44
+record 2400 400 s044
+load menu
+poke 0D5114 2 45
+record 2400 400 s045
+load menu
+poke 0D5114 2 46
+record 2400 400 s046
+load menu
+poke 0D5114 2 47
+record 2400 400 s047
+load menu
+poke 0D5114 2 48
+record 2400 400 s048
+load menu
+poke 0D5114 2 49
+record 2400 400 s049
+load menu
+poke 0D5114 2 50
+record 2400 400 s050
+load menu
+poke 0D5114 2 51
+record 2400 400 s051
+load menu
+poke 0D5114 2 52
+record 2400 400 s052
+load menu
+poke 0D5114 2 53
+record 2400 400 s053
+load menu
+poke 0D5114 2 54
+record 2400 400 s054
+load menu
+poke 0D5114 2 55
+record 2400 400 s055
+load menu
+poke 0D5114 2 56
+record 2400 400 s056
+load menu
+poke 0D5114 2 57
+record 2400 400 s057
+load menu
+poke 0D5114 2 58
+record 2400 400 s058
+load menu
+poke 0D5114 2 59
+record 2400 400 s059
+load menu
+poke 0D5114 2 60
+record 2400 400 s060
+load menu
+poke 0D5114 2 61
+record 2400 400 s061
+load menu
+poke 0D5114 2 62
+record 2400 400 s062
+load menu
+poke 0D5114 2 63
+record 2400 400 s063
+load menu
+poke 0D5114 2 64
+record 2400 400 s064
+load menu
+poke 0D5114 2 65
+record 2400 400 s065
+load menu
+poke 0D5114 2 66
+record 2400 400 s066
+load menu
+poke 0D5114 2 67
+record 2400 400 s067
+load menu
+poke 0D5114 2 68
+record 2400 400 s068
+load menu
+poke 0D5114 2 69
+record 2400 400 s069
+load menu
+poke 0D5114 2 70
+record 2400 400 s070
+load menu
+poke 0D5114 2 71
+record 2400 400 s071
+load menu
+poke 0D5114 2 72
+record 2400 400 s072
+load menu
+poke 0D5114 2 73
+record 2400 400 s073
+load menu
+poke 0D5114 2 74
+record 2400 400 s074
+load menu
+poke 0D5114 2 75
+record 2400 400 s075
+load menu
+poke 0D5114 2 76
+record 2400 400 s076
+load menu
+poke 0D5114 2 77
+record 2400 400 s077
+load menu
+poke 0D5114 2 78
+record 2400 400 s078
+load menu
+poke 0D5114 2 79
+record 2400 400 s079
+load menu
+poke 0D5114 2 80
+record 2400 400 s080
+load menu
+poke 0D5114 2 81
+record 2400 400 s081
+load menu
+poke 0D5114 2 82
+record 2400 400 s082
+load menu
+poke 0D5114 2 83
+record 2400 400 s083
+load menu
+poke 0D5114 2 84
+record 2400 400 s084
+load menu
+poke 0D5114 2 85
+record 2400 400 s085
+load menu
+poke 0D5114 2 86
+record 2400 400 s086
+load menu
+poke 0D5114 2 87
+record 2400 400 s087
+load menu
+poke 0D5114 2 88
+record 2400 400 s088
+load menu
+poke 0D5114 2 89
+record 2400 400 s089
+load menu
+poke 0D5114 2 90
+record 2400 400 s090
+load menu
+poke 0D5114 2 91
+record 2400 400 s091
+load menu
+poke 0D5114 2 92
+record 2400 400 s092
+load menu
+poke 0D5114 2 93
+record 2400 400 s093
+load menu
+poke 0D5114 2 94
+record 2400 400 s094
+load menu
+poke 0D5114 2 95
+record 2400 400 s095
+load menu
+poke 0D5114 2 96
+record 2400 400 s096
+load menu
+poke 0D5114 2 97
+record 2400 400 s097
+load menu
+poke 0D5114 2 98
+record 2400 400 s098
+load menu
+poke 0D5114 2 99
+record 2400 400 s099
+load menu
+poke 0D5114 2 100
+record 2400 400 s100
+load menu
+poke 0D5114 2 101
+record 2400 400 s101
+load menu
+poke 0D5114 2 102
+record 2400 400 s102
+load menu
+poke 0D5114 2 103
+record 2400 400 s103
+load menu
+poke 0D5114 2 104
+record 2400 400 s104
+load menu
+poke 0D5114 2 105
+record 2400 400 s105
+load menu
+poke 0D5114 2 106
+record 2400 400 s106
+load menu
+poke 0D5114 2 107
+record 2400 400 s107
+load menu
+poke 0D5114 2 108
+record 2400 400 s108
+load menu
+poke 0D5114 2 109
+record 2400 400 s109
+load menu
+poke 0D5114 2 110
+record 2400 400 s110

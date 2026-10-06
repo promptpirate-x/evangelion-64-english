@@ -1,0 +1,178 @@
+# Trace run: visit every scene and log which strings the game draws. Use with a trace build.
+timeout 7000
+sheet 8 6 160 120
+wait 600
+press Start 4
+wait 400
+save menu
+load menu
+poke 0D5114 2 30
+record 9000 3000 s030
+load menu
+poke 0D5114 2 31
+record 9000 3000 s031
+load menu
+poke 0D5114 2 32
+record 9000 3000 s032
+load menu
+poke 0D5114 2 33
+record 9000 3000 s033
+load menu
+poke 0D5114 2 34
+record 9000 3000 s034
+load menu
+poke 0D5114 2 35
+record 9000 3000 s035
+load menu
+poke 0D5114 2 36
+record 9000 3000 s036
+load menu
+poke 0D5114 2 37
+record 9000 3000 s037
+load menu
+poke 0D5114 2 38
+record 9000 3000 s038
+load menu
+poke 0D5114 2 39
+record 9000 3000 s039
+load menu
+poke 0D5114 2 40
+record 9000 3000 s040
+load menu
+poke 0D5114 2 41
+record 9000 3000 s041
+load menu
+poke 0D5114 2 42
+record 9000 3000 s042
+load menu
+poke 0D5114 2 43
+record 9000 3000 s043
+load menu
+poke 0D5114 2 44
+record 9000 3000 s044
+load menu
+poke 0D5114 2 45
+record 9000 3000 s045
+load menu
+poke 0D5114 2 46
+record 9000 3000 s046
+load menu
+poke 0D5114 2 47
+record 9000 3000 s047
+load menu
+poke 0D5114 2 48
+record 9000 3000 s048
+load menu
+poke 0D5114 2 49
+record 9000 3000 s049
+load menu
+poke 0D5114 2 50
+record 9000 3000 s050
+load menu
+poke 0D5114 2 51
+record 9000 3000 s051
+load menu
+poke 0D5114 2 52
+record 9000 3000 s052
+load menu
+poke 0D5114 2 53
+record 9000 3000 s053
+load menu
+poke 0D5114 2 54
+record 9000 3000 s054
+load menu
+poke 0D5114 2 55
+record 9000 3000 s055
+load menu
+poke 0D5114 2 56
+record 9000 3000 s056
+load menu
+poke 0D5114 2 57
+record 9000 3000 s057
+load menu
+poke 0D5114 2 58
+record 9000 3000 s058
+load menu
+poke 0D5114 2 59
+record 9000 3000 s059
+load menu
+poke 0D5114 2 60
+record 9000 3000 s060
+load menu
+poke 0D5114 2 61
+record 9000 3000 s061
+load menu
+poke 0D5114 2 62
+record 9000 3000 s062
+load menu
+poke 0D5114 2 63
+record 9000 3000 s063
+load menu
+poke 0D5114 2 64
+record 9000 3000 s064
+load menu
+poke 0D5114 2 65
+record 9000 3000 s065
+load menu
+poke 0D5114 2 66
+record 9000 3000 s066
+load menu
+poke 0D5114 2 67
+record 9000 3000 s067
+load menu
+poke 0D5114 2 68
+record 9000 3000 s068
+load menu
+poke 0D5114 2 69
+record 9000 3000 s069
+load menu
+poke 0D5114 2 70
+record 9000 3000 s070
+load menu
+poke 0D5114 2 71
+record 9000 3000 s071
+load menu
+poke 0D5114 2 72
+record 9000 3000 s072
+load menu
+poke 0D5114 2 73
+record 9000 3000 s073
+load menu
+poke 0D5114 2 74
+record 9000 3000 s074
+load menu
+poke 0D5114 2 75
+record 9000 3000 s075
+load menu
+poke 0D5114 2 76
+record 9000 3000 s076
+load menu
+poke 0D5114 2 77
+record 9000 3000 s077
+load menu
+poke 0D5114 2 78
+record 9000 3000 s078
+load menu
+poke 0D5114 2 79
+record 9000 3000 s079
+load menu
+poke 0D5114 2 80
+record 9000 3000 s080
+load menu
+poke 0D5114 2 81
+record 9000 3000 s081
+load menu
+poke 0D5114 2 82
+record 9000 3000 s082
+load menu
+poke 0D5114 2 83
+record 9000 3000 s083
+load menu
+poke 0D5114 2 84
+record 9000 3000 s084
+load menu
+poke 0D5114 2 85
+record 9000 3000 s085
+load menu
+poke 0D5114 2 86
+record 9000 3000 s086

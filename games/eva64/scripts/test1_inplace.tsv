@@ -1,0 +1,6 @@
+﻿# Round-trip test 1: two lines replaced in place, same length, nothing moves.
+# Uses only letters the Japanese font already has (A D E J N R S T V Y and digits).
+# 0005 was 第3使徒サキエル (mission 1 briefing, target name)
+0005	TEST 123
+# 0017 was セカンドインパクトから{15}年。 (mission 1 opening narration)
+0017	EVA TEST 12345

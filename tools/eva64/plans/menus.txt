@@ -1,0 +1,34 @@
+# Menus and extras check.
+timeout 3000
+sheet 6 6 213 160
+wait 600
+press Start 4
+wait 400
+save menu
+load menu
+poke 0D5114 2 30
+record 1200 300 s030
+load menu
+poke 0D5114 2 31
+record 1200 300 s031
+load menu
+poke 0D5114 2 33
+record 1200 300 s033
+load menu
+poke 0D5114 2 39
+record 1200 300 s039
+load menu
+poke 0D5114 2 41
+record 1200 300 s041
+load menu
+poke 0D5114 2 59
+record 1200 300 s059
+load menu
+poke 0D5114 2 36
+record 1200 300 s036
+load menu
+poke 0D5114 2 56
+record 1200 300 s056
+load menu
+poke 0D5114 2 62
+record 1200 300 s062
