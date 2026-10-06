@@ -1,5 +1,5 @@
 NEON GENESIS EVANGELION (Nintendo 64) - English translation patch
-Version 0.4 (beta), 2026-10-05
+Version 0.5 (beta), 2026-10-06
 
 This is an unofficial fan translation. It is free. It contains no game data:
 you need your own copy of the game.
@@ -17,12 +17,12 @@ The Japanese ROM in big-endian (.z64) format, matching No-Intro's
 If your file has a .v64 or .n64 extension it is in a different byte order and
 must be converted to .z64 first, or the patch will not apply.
 
-After patching, the ROM's SHA-1 is 2A5E4AA51C2F84A1AA9917BE50E35C6B535A7B4D.
+After patching, the ROM's SHA-1 is B3163EF94F574F3CD683134980FAA8194F9DE95F.
 
 
 HOW TO APPLY
 ------------
-The patch is in xdelta format: eva64_english_v0.4.xdelta
+The patch is in xdelta format: eva64_english_v0.5.xdelta
 
 Easiest: use a patcher with a window, such as "Delta Patcher" or the web page
 "Rom Patcher JS". Choose your ROM as the original file and the .xdelta as the
@@ -30,7 +30,7 @@ patch.
 
 Command line, with xdelta3:
 
-    xdelta3 -d -s "Neon Genesis Evangelion (Japan).z64" eva64_english_v0.4.xdelta "Evangelion 64 (English).z64"
+    xdelta3 -d -s "Neon Genesis Evangelion (Japan).z64" eva64_english_v0.5.xdelta "Evangelion 64 (English).z64"
 
 Keep your original ROM; the patch writes a new file.
 
@@ -117,6 +117,8 @@ chosen so that the ROM's checksum equals the original's.
 
 CHANGES
 -------
+v0.5  Restored three small pictures that v0.1-v0.4 had overwritten by mistake
+      (the main menu's LEVEL label among them).
 v0.4  Mission 5's pause screen reworded so its lines are the same size. All 14
       pause screens have now been seen running.
 v0.3  Starts on emulators that give an unrecognised ROM a 4K save chip (the

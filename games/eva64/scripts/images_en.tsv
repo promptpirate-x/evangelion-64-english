@@ -119,8 +119,11 @@
 514	_GOVER01	MISSION FAILED	34	900	62.5	center	128	58
 515	_GOVER02	OPERATION FAILED	34	900	62.5	center	128	58
 533	_TEXT2	Now in production	12	700	68	left	2	12
-705	D00SSB00	Motion	22	900	62.5	center	48	27
-706	D00SSC00	Resolution	17	900	62.5	left	3	26
+# the bands above and below these two are kept: the game draws its small LEVEL:EASY label from them
+705	D00SSB00	@frame	6	700	68	left	0	0
+705	D00SSB00	Motion	20	900	62.5	center	48	26
+706	D00SSC00	@frame	6	700	68	left	0	0
+706	D00SSC00	Resolution	16	900	62.5	left	8	26
 712	D00SSJ00	@frame	2	700	68	left	0	0
 712	D00SSJ00	In Session	13	700	68	center	32	17
 713	D00SSJ01	@frame	2	700	68	left	0	0

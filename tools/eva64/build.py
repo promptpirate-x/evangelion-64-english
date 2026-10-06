@@ -216,6 +216,23 @@ def apply_trace_patch(rom):
         cave += 4 * len(code)
 
 
+IMAGE_TABLE = 0x416D0      # image file table: (offset from 0x1D9000, compressed size, unpacked size) x 2331
+
+
+def image_slot(rom, off, clen):
+    """Bytes available at `off` for an image: up to the next file listed in the image table.
+    Some files there are stored raw (compressed size 0) and do not start with "Yay0", so the
+    gap to the next Yay0 header overstates the room (a raw file holds the main menu's small
+    LEVEL label, and overwriting it made that label vanish)."""
+    starts = []
+    for i in range(2331):
+        o, c, d = struct.unpack(">III", rom[IMAGE_TABLE + i * 12:IMAGE_TABLE + i * 12 + 12])
+        if d:
+            starts.append(0x1D9000 + o)
+    later = [s for s in starts if s > off]
+    return (min(later) - off) if later else (clen + 7) & ~7
+
+
 def apply_images(rom):
     """Insert every PNG in work\\images_en (named <file number>_<name>.png) over the
     original image file. Each must compress into the space the original occupied."""
@@ -243,7 +260,7 @@ def apply_images(rom):
         else:
             pixels = grey
         packed = L.yay0_encode(data[:16] + pixels)
-        slot = (offsets[n + 1] - off) if n + 1 < len(offsets) else (clen + 7) & ~7
+        slot = image_slot(rom, off, clen)
         if len(packed) > slot:
             raise SystemExit(f"{path.name}: compresses to {len(packed)} bytes but only {slot} are available; simplify the image")
         rom[off:off + slot] = packed + bytes(slot - len(packed))

@@ -1,13 +1,26 @@
 # Neon Genesis Evangelion (Nintendo 64) – English translation
 
 An unofficial fan translation of Bandai's 1999 Nintendo 64 game *Neon Genesis Evangelion* (Japan only).
-Version 0.4 (beta).
+Version 0.5 (beta).
 
-**Download:** [`games/eva64/patch/eva64_english_v0.4.xdelta`](games/eva64/patch/eva64_english_v0.4.xdelta)
+**Download:** [`games/eva64/patch/eva64_english_v0.5.xdelta`](games/eva64/patch/eva64_english_v0.5.xdelta)
 **Read first:** [`games/eva64/patch/README.txt`](games/eva64/patch/README.txt) – which ROM you need, how to apply the patch, emulator notes and known issues.
 
 The patch contains no game data. You need your own copy of the Japanese ROM (No-Intro
 "Neon Genesis Evangelion (Japan)", SHA-1 `A9BA0A4AFEED48080F54AA237850F3676B3D9980`).
+
+## Screenshots
+
+Japanese original on the left, English patch on the right (captured at the same frame on an emulator).
+
+![Title card](screenshots/titlecard.png)
+![Briefing](screenshots/briefing.png)
+![Narration](screenshots/narration1.png)
+![Pause screen](screenshots/pause.png)
+![Angel destroyed card](screenshots/destroyed.png)
+![Main menu](screenshots/mainmenu.png)
+
+More pairs in [`screenshots/`](screenshots/), and all of them on one sheet: [`screenshots/all_pairs.png`](screenshots/all_pairs.png).
 
 ## What is translated
 

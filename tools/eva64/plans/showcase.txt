@@ -1,0 +1,45 @@
+# Fixed-frame screenshots for the before/after comparison pictures. Run on "original" and on
+# the English build; the emulator is deterministic, so the same frames show the same moments.
+timeout 2400
+wait 600
+press Start 4
+wait 400
+save menu
+shot mainmenu
+poke 0D5114 2 43
+wait 630
+shot narration1
+wait 2886
+shot titlecard
+wait 1390
+shot briefing
+load menu
+poke 0D5114 2 44
+wait 2350
+shot dialogue
+load menu
+poke 0D5114 2 46
+wait 1800
+shot destroyed
+load menu
+poke 0D5114 2 45
+wait 1300
+press Start 4
+wait 90
+shot pause
+load menu
+poke 0D5114 2 37
+wait 1810
+shot credit
+load menu
+poke 0D5114 2 64
+wait 180
+shot narration2
+load menu
+poke 0D5114 2 76
+wait 4860
+shot briefing11
+load menu
+poke 0D5114 2 59
+wait 600
+shot choice

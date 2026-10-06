@@ -1,0 +1,4 @@
+wait 600
+press Start 4
+wait 400
+shot mainmenu
